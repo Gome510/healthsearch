@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@wixc3/react-board": "^2.1.3",
     "gh-pages": "^5.0.0"
   }
 }
