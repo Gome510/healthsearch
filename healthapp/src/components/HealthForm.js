@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import DatePicker from './DatePicker';
+import FilterSearch from './FilterSearch';
 
 function HealthForm() {
   return (
@@ -25,7 +26,7 @@ function HealthForm() {
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Conditions</Form.Label>
-        <Form.Control type="name" placeholder="Name" />
+        <FilterSearch />
       </Form.Group>
 
       <Button variant="primary" type="submit">
